@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expense">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:hint="ENTER AMOUNT"
+            android:gravity="center_horizontal"
+            android:id="@+id/expense_input"
+            android:textColorHint="#7C7B7B"
+            android:textColor="@color/black"/>
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/expense_input"
+            android:id="@+id/dropdown"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/expense_input"
+            android:text="send"
+            android:id="@+id/send_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/send_button"
+            android:text="read"
+            android:id="@+id/send_button1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:id="@+id/text_view"
+            android:layout_below="@id/send_button1"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

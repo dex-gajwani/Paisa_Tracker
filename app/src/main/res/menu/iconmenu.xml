@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/menu_home"
+       android:icon="@drawable/home"
+       android:title="HOME"/>
+
+    <item android:id="@+id/menu_income"
+        android:icon="@drawable/income"
+        android:title="INCOME"/>
+
+    <item android:id="@+id/menu_expense"
+        android:icon="@drawable/expenses"
+        android:title="EXPENSE"/>
+
+    <item android:id="@+id/menu_calender"
+        android:icon="@drawable/calendar"
+        android:title="CALENDER"/>
+
+    <item android:id="@+id/menu_call"
+        android:icon="@drawable/passbook"
+        android:title="E-PASSBOOK"/>
+
+    <item android:id="@+id/menu_settings"
+        android:icon="@drawable/settings"
+        android:title="SETTINGS"/>
+</menu>

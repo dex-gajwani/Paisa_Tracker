@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420409186666",
+    "project_id": "paisa-tracker-7ab23",
+    "storage_bucket": "paisa-tracker-7ab23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420409186666:android:e6254122a9e13dbe7f2d13",
+        "android_client_info": {
+          "package_name": "com.example.paisatracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420409186666-lmob283juj7a3rugqhgkcmugui0rbio4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjI626l66t2KTW1Qv4RMc6G6Jo1idrz9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420409186666-lmob283juj7a3rugqhgkcmugui0rbio4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

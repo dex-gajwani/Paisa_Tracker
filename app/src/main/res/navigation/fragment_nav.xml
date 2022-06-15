@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/calender"
+        android:name="com.example.paisatracker.calender"
+        android:label="fragment_calender"
+        tools:layout="@layout/fragment_calender" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/income"
+        android:name="com.example.paisatracker.income"
+        android:label="fragment_income"
+        tools:layout="@layout/fragment_income" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.paisatracker.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_calender"
+            app:destination="@id/calender" />
+        <action
+            android:id="@+id/action_home2_to_income"
+            app:destination="@id/income" />
+    </fragment>
+</navigation>
